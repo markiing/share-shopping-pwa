@@ -1,9 +1,11 @@
 <script>
 	import { get, EVENT_TYPES } from '../services/data'
+	import {headerText} from '../store'
 	import { link } from "svelte-routing";
 	import {Card} from '../components/'
 	let shops = [];
 	get(EVENT_TYPES.ON, `${__app.env.DB_ROUTE_SHOPS}`, data => shops = data)
+	headerText.update(() => "Minhas Listas")
 </script>
 
 <main>

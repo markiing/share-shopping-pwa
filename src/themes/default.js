@@ -19,7 +19,7 @@ export default {
     "--grid-lg-breakpoint": "1024px",
     "--comp-padding": "10px",
     "--comp-margin": "10px",
-    "--comp-border-radius": "10px",
+    "--comp-border-radius": "3px",
 }
 
 //#FADCD9
