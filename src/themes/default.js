@@ -5,8 +5,8 @@ export default {
         {name: "RobotoBlack", url: "/fonts/Roboto-Black.ttf"},
         {name: "RobotoLight", url: "/fonts/Roboto-Light.ttf"}
     ],
-    "--color-primary": "#F79489",
-    "--color-secondary": "#F8AFA6",
+    "--color-primary": "#2e0038",
+    "--color-secondary": "#d5cadb",
     "--color-font-primary": "#333",
     "--color-font-secondary": "#fff",
     "--color-success": "0,255,0",

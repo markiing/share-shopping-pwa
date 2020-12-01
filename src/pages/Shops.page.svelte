@@ -10,7 +10,7 @@
 
 <main>
 	{#each shops as {key, value}, i}
-		<Card cardStyle="fullfiled" on>
+		<Card cardStyle="fullfiled">
 			<h3><a href="/shop/{key}" use:link>{value.name}</a></h3>
 		</Card>
 	{/each}

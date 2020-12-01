@@ -10,7 +10,9 @@
     "@rollup/plugin-commonjs": "^16.0.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@rollup/plugin-replace": "^2.3.4",
+    "accounting-js": "^1.1.1",
     "dotenv": "^8.2.0",
+    "fa-svelte": "^3.1.0",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.0.0",
     "rollup-plugin-livereload": "^2.0.0",
@@ -20,6 +22,7 @@
   },
   "dependencies": {
     "@firebase/database": "^0.8.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "firebase": "^8.1.1",
     "sirv-cli": "^1.0.0",
     "svelte-routing": "^1.4.2"
